@@ -11,6 +11,7 @@
 			<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
 			<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
 			<link href="css/style.css" rel="stylesheet" />
+			<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		</head>
 		<body id="page-top">
 			<!-- Navigation-->
@@ -29,7 +30,8 @@
 							<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
 							<li class="nav-item"><a class="nav-link" href="#FAQs">FAQs</a></li>
 							<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-						<!----<li class="nav-item"><a class="nav-link" href="login&registration.html">Sign In</a></li>--->
+							<li class="nav-item"><a class="nav-link" href=login&registration.html><i class="material-icons" style="font-size:25px">&#xe7fd;</i></a></li>
+			
 						</ul>
 					</div>
 				</div>
@@ -55,7 +57,8 @@
 							<div class="portfolio-item">
 								<a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
 									<div class="portfolio-hover">
-										<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+										<div class="portfolio-hover-content"><i class="fas fa-plus fa-caret-up fa-3x
+											"></i></div>
 									</div>
 									<img class="img-fluid" src="assets/img/portfolio/1.1.jpg" alt="..." />
 								</a>
@@ -69,7 +72,7 @@
 							<div class="portfolio-item">
 								<a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
 									<div class="portfolio-hover">
-										<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+										<div class="portfolio-hover-content"><i class="fas fa-plus fa-caret-up fa-3x"></i></div>
 									</div>
 									<img class="img-fluid" src="assets/img/portfolio/2.2.jpg" alt="..." />
 								</a>
@@ -83,7 +86,7 @@
 							<div class="portfolio-item">
 								<a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
 									<div class="portfolio-hover">
-										<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+										<div class="portfolio-hover-content"><i class="fas fa-plus fa-caret-up fa-3x"></i></div>
 									</div>
 									<img class="img-fluid" src="assets/img/portfolio/3.3.jpg" alt="..." />
 								</a>
@@ -97,7 +100,8 @@
 							<div class="portfolio-item">
 								<a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
 									<div class="portfolio-hover">
-										<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+										<div class="portfolio-hover-content"><i class="fas fa-plus fa-caret-up fa-3x
+											"></i></div>
 									</div>
 									<img class="img-fluid" src="assets/img/portfolio/4.4.jpg" alt="..." />
 								</a>
@@ -111,7 +115,8 @@
 							<div class="portfolio-item">
 								<a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
 									<div class="portfolio-hover">
-										<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+										<div class="portfolio-hover-content"><i class="fas fa-plus fa-caret-up fa-3x
+											"></i></div>
 									</div>
 									<img class="img-fluid" src="assets/img/portfolio/5.5.jpg" alt="..." />
 								</a>
@@ -125,7 +130,8 @@
 							<div class="portfolio-item">
 								<a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
 									<div class="portfolio-hover">
-										<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+										<div class="portfolio-hover-content"><i class="fas fa-plus fa-caret-up fa-3x
+											"></i></div>
 									</div>
 									<img class="img-fluid" src="assets/img/portfolio/6.6.jpg" alt="..." />
 								</a>
@@ -137,18 +143,15 @@
 					</div>
 				</div>
 			</section>
-			   <!-- Services-->
-			   <section class="page-section" id="about">
-				<div class="container">
-					<div class="text-center">
-						<h2 class="section-heading text-uppercase">About Uncle Keebs</h2>
-						<h3 class="section-subheading text-muted">Tell us more about your keyboard</h3>
-					</div>
-					<div class="row text-center">
-				
-					</div>
+
+			<div class="portfolio-item" align="center">
+				<a class="btn btn-primary btn-xl text-uppercase" data-bs-toggle="modal" href="#orderform" style="margin-top:5px;">Order Form</a>
+					</a>
+
 				</div>
-			</section>
+</div>
+</div>
+</section>
 			<!-- FAQs-->
 			<section class="page-section bg-light" id="FAQs">
 				<div class="container">
@@ -198,6 +201,11 @@
 				<div class="container">
 					<div class="text-center">
 						<h2 class="section-heading text-uppercase">Contact Us</h2>
+						<form action="https://formsubmit.co/raymund.lumanog@email.com" method="POST">
+							<input type="text" name="name" required>
+							<input type="email" name="email" required>
+							<button type="submit">Send</button>
+					   </form>
 						<h3 class="section-subheading text-muted"></h3>
 					</div>
 				
@@ -464,6 +472,30 @@
 					</div>
 				</div>
 			</div>
+		
+		<div class="portfolio-modal modal fade" id="orderform" tabindex="-1" role="dialog" aria-hidden="true">
+             <div class="modal-dialog">
+                 <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                     <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <div class="modal-body">
+                                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc2v8innxNCEMgZiw641vyToJwpLR2TzrVVs0KsbdZvw4nHSA/viewform?embedded=true" width="940" height="4841" frameborder="5">Loading…</iframe>
+
+                                        </ul>
+
+                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                            <i class="fas fa-times me-1"></i>
+                                            Close Form
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		   
 		</body>
 	</html>
