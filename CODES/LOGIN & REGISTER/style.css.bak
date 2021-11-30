@@ -6,11 +6,7 @@
 .hero{
 	height: 100%;
 	width: 100%;
-<<<<<<< HEAD:css/style1.css
-	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(banner12.jpg);
-=======
 	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(banner1.jpg);
->>>>>>> master:CODES/LOGIN & REGISTER/style.css
 	background-position: center;
 	background-size: cover;
 	position: absolute;
@@ -20,7 +16,7 @@
 	height: 480px;
 	position: relative;
 	margin: 6% auto;
-	background: #fff;
+	background: #000;
 	padding: 5px;
 	overflow: hidden;
 }
