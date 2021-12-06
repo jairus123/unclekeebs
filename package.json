@@ -2,18 +2,15 @@
   "name": "unclekeebs-master",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.ejs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm app.js"
-    
-    
+    "start": "node app.js"
   },
-  "engine":{
-    "node": "16.10.0",
-    "npm": "7.24.0"},
-    
-
+  "engine": {
+    "node": "16.7.0",
+    "npm": "8.2.0"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -28,7 +25,5 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.14",
     "nodemon": "^2.0.15"
-    
   }
-  
 }
