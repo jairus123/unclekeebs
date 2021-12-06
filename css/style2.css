@@ -1,0 +1,11 @@
+header.masthead {
+  padding-top: 5.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/newbg1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
